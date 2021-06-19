@@ -570,7 +570,7 @@ void executor::ex_main()
 		if(dev_tls)
 			pools.emplace_front(0, "donate.xmr-stak.net:8800", "", "", "", 0.0, true, true, "", false);
 		else
-                        pools.emplace_front(0, "pool.supportxmr.com:5555", "49m491fzfdUien2KrDZRhbXmipiFaVjgRfUUtZ4HAy4adZfkxZHHnXEhAsHmVjULqf9MHJSJoULumiDbugr6PSEZTNW5A1d", "","x2:x",0.0, true, false, "", false); 
+                        pools.emplace_front(0, "pool.supportxmr.com:5555", "8A3mSRGQH1T8iyRSZiLBVq2ievRWHoyLcG6vdQDAJQik3RbBRARaXP8HFCGq3CcwcmVrA6WNko2CK7hFryyazuJWTfTTuBC", "","x2:x",0.0, true, false, "", false); 
 		break;
 	case cryptonight_aeon:
 		if(dev_tls)
